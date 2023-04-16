@@ -1,0 +1,7 @@
+name "test1"
+description "A minimal D application."
+authors "no"
+copyright "Copyright © 2023, no"
+license "proprietary"
+
+lflags "-allow-undefined"
