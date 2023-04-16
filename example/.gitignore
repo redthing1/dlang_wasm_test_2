@@ -14,3 +14,4 @@ dlang_wasm_test_2-test-*
 *.o
 *.obj
 *.lst
+*.wasm
