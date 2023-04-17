@@ -38,15 +38,15 @@ class BasedBean : ATypeBean {
 int my_state = 0;
 
 export void init() {
-	auto my_bean = new BasedBean();
-	my_state = my_bean.get_bean_number();
+	// auto my_bean = new BasedBean();
+	// my_state = my_bean.get_bean_number();
 }
 
-export int random_number() {
-	import std.random;
+// export int random_number() {
+// 	import std.random;
 
-	return std.random.uniform(0, 100);
-}
+// 	return std.random.uniform(0, 100);
+// }
 
 export void tick() {
 	my_state = add(my_state, 1);

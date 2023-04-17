@@ -42,10 +42,10 @@ async function main() {
   let stateValue = module2.instance.exports.get_state();
   console.log(`from js: module2.instance.exports.get_state() = ${stateValue}`);
 
-  // try random number
-  let aRandomNumber = module2.instance.exports.random_number();
-  console.log(
-      `from js: module2.instance.exports.random_number() = ${aRandomNumber}`);
+  // // try random number
+  // let aRandomNumber = module2.instance.exports.random_number();
+  // console.log(
+  //     `from js: module2.instance.exports.random_number() = ${aRandomNumber}`);
 }
 
 main();
