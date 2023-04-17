@@ -6,4 +6,5 @@ license "proprietary"
 
 lflags "-allow-undefined"
 
+sourceFiles "../lib/minruntime/**.d"
 importPaths "../lib/minruntime"
