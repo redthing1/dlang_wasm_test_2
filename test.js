@@ -30,13 +30,22 @@ async function main() {
   // now, call stuff from module 2
   // test it out
 
+  // call init
+  module2.instance.exports.init();
+
   // call tick 3 times
   for (let i = 0; i < 3; i++) {
     module2.instance.exports.tick();
   }
 
+  // check state
   let stateValue = module2.instance.exports.get_state();
   console.log(`from js: module2.instance.exports.get_state() = ${stateValue}`);
+
+  // try random number
+  let aRandomNumber = module2.instance.exports.random_number();
+  console.log(
+      `from js: module2.instance.exports.random_number() = ${aRandomNumber}`);
 }
 
 main();
