@@ -3,9 +3,6 @@ module app;
 extern (C): // disable d mangling
 
 import ldc.attributes;
-import arsd.webassembly;
-
-void _start() { /* required module entrypoint */ }
 
 // @llvmAttr("wasm-import-module", "math") {
 // 	int add(int a, int b);
