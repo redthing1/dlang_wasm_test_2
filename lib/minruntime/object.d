@@ -1957,7 +1957,11 @@ class Throwable : Object {
      */
     override string toString() {
         string s;
-        toString((in buf) { s ~= buf; });
+        // toString((in buf) { s ~= buf; });
+        void sinkDelegate(in char[] buf) {
+            s ~= buf;
+        }
+        toString(&sinkDelegate);
         return s;
     }
 
