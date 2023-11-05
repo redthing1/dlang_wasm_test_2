@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dlang_wasm_test_2
+dlang_wasm_test_2.so
+dlang_wasm_test_2.dylib
+dlang_wasm_test_2.dll
+dlang_wasm_test_2.a
+dlang_wasm_test_2.lib
+dlang_wasm_test_2-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+*.wasm
